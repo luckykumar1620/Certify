@@ -7,7 +7,7 @@ const Footer = () => {
 
         <div>
           <h2 className="text-white text-2xl font-bold">
-            Certify
+            CertiFy
           </h2>
           <p className="mt-4 text-sm">
             Blockchain-powered certificate issuance and verification platform for academic and professional credentials.
@@ -31,14 +31,17 @@ const Footer = () => {
             Contact
           </h3>
           <p className="text-sm">
-            lucky@email.com
+           Email: luckykr1620@email.com
+          </p>
+          <p>
+            Phone:+919065728764
           </p>
         </div>
 
       </div>
 
       <div className="text-center mt-10 text-xs text-gray-600">
-        © 2026 CertiChain. All rights reserved.
+        © 2026 CertiFy. All rights reserved.
       </div>
     </footer>
   )

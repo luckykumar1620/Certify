@@ -7,10 +7,13 @@ import IssueCertificate from './pages/IssueCertificate'
 import Verify from './pages/Verify'
 import RegisterInsttuions from './pages/RegisterInsttuions'
 import Institutions from './pages/Institutions'
+import Footer from './components/layout/Footer'
 
 
 
 function App() {
+
+ 
  
 
   return (
@@ -19,12 +22,12 @@ function App() {
      
       <Routes>
         <Route path="/" element={<Home/>}/> 
-         <Route path="/issue" element={<IssueCertificate/>} />
-         <Route path="/verify" element={<Verify/>}/>
-         <Route path="/register" element={<RegisterInsttuions/>}/>
-         <Route path="/instituions" element={<Institutions/>}/>
+         <Route path="/issue" element={<IssueCertificate />} />
+         <Route path="/verify" element={<Verify  />}/>
+         <Route path="/register" element={<RegisterInsttuions  />}/>
+         <Route path="/institutions" element={<Institutions  />}/>
       </Routes>
-      
+       <Footer/>
     </Router>
   )
 }

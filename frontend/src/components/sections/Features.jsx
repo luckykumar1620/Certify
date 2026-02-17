@@ -12,7 +12,7 @@ const Features = () => {
         {/* Typing Heading */}
         <h2 className="text-4xl md:text-5xl font-bold mb-16 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
           <Typewriter
-            words={["Why Choose CertiChain?"]}
+            words={["Why Choose CertiFy?"]}
             loop={true}
             cursor
             cursorStyle="_"

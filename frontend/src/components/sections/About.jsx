@@ -17,7 +17,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold bg-gradient-to-r from-green-400 to-cyan-400 bg-clip-text text-transparent">
             <Typewriter
-              words={["About CertiChain"]}
+              words={["About CertiFy"]}
               loop={false}
               cursor
               cursorStyle="_"
@@ -26,7 +26,7 @@ const About = () => {
           </h2>
 
           <p className="mt-6 text-gray-400 max-w-3xl mx-auto text-lg">
-            CertiChain is a blockchain-enabled certificate issuance and verification
+            CertiFy is a blockchain-enabled certificate issuance and verification
             platform designed to eliminate fraud, ensure transparency, and enable
             instant global authentication of academic and professional credentials.
           </p>
@@ -42,7 +42,7 @@ const About = () => {
 
             <p className="text-gray-300 leading-relaxed mb-6">
               Traditional certificate systems suffer from forgery, delayed verification,
-              centralized vulnerabilities, and lack of global accessibility. CertiChain
+              centralized vulnerabilities, and lack of global accessibility. CertiFy
               leverages Ethereum smart contracts and decentralized IPFS storage to
               provide a tamper-proof and scalable solution.
             </p>
