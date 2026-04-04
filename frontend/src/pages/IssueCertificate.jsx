@@ -7,6 +7,7 @@ const IssueCertificate = () => {
     courseProgram: "",
     grade: "",
     studentAddress: "",
+    institutionWalletAddress: "",
     certificateFile: null,
   });
 
@@ -100,10 +101,25 @@ const IssueCertificate = () => {
             />
           </div>
 
+          {/* Institution Wallet Address */}
+          <div className="md:col-span-2">
+            <label className="block mb-2 text-gray-300 font-medium">
+              Institution Wallet Address
+            </label>
+            <input
+              type="text"
+              name="institutionWalletAddress"
+              placeholder="0x..."
+              onChange={handleChange}
+              required
+              className="w-full px-4 py-3 rounded-lg bg-white/10 backdrop-blur-md border border-white/20 focus:border-green-400 focus:ring-2 focus:ring-green-400/40 outline-none transition text-white"
+            />
+          </div>
+
           {/* Certificate File */}
           <div className="md:col-span-2">
             <label className="block mb-2 text-gray-300 font-medium">
-              Certificate File (Optional)
+              Certificate File 
             </label>
             <input
               type="file"
